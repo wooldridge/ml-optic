@@ -4,13 +4,13 @@ config.path = "/PATH/TO/ml-optic/"; // include trailing "/"
 
 config.host = "localhost";
 
-config.server = {
-  "port": 8569
-};
-
 config.database = {
   "name": "ml-optic",
-  "port": 8569
+};
+
+config.server = {
+  "odbcPort": 8569,
+  "restPort": 8570
 };
 
 config.auth = {
@@ -19,22 +19,33 @@ config.auth = {
   sendImmediately: false
 };
 
-config.databaseSetup = {
-  "database-name": config.database.name
-};
-
 config.schemaDatabaseSetup = {
   "database-name": config.database.name + '-schema'
 };
+
+config.databaseSetup = {
+  "database-name": config.database.name,
+  "schema-database": config.schemaDatabaseSetup["database-name"],
+  "triple-index": true
+};
+
+config.schemaForestSetup = {
+  "forest-name": config.database.name + '-schema-1',
+  "database": config.database.name + '-schema'
+}
 
 config.forestSetup = {
   "forest-name": config.database.name + '-1',
   "database": config.database.name
 }
 
-config.schemaForestSetup = {
-  "forest-name": config.database.name + '-schema-1',
-  "database": config.database.name + '-schema'
+config.odbcSetup = {
+  "group-name": "Default",
+  "server-name": config.database.name + "-odbc",
+  "server-type": "odbc",
+  "root": "Modules",
+  "content-database": config.database.name,
+  "port": config.server.odbcPort
 }
 
 config.restSetup = {
@@ -42,7 +53,7 @@ config.restSetup = {
     "name": config.database.name + "-rest",
     "database": config.database.name,
     "modules-database": config.database.name + "-modules",
-    "port": config.database.port,
+    "port": config.server.restPort,
     "error-format": "json"
   }
 }
