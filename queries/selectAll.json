@@ -1,0 +1,18 @@
+{
+  "$optic": {
+    "ns": "op",
+    "fn": "operators",
+    "args": [
+      {
+        "ns": "op",
+        "fn": "from-view",
+        "args": [
+          "main",
+          "employees",
+          null,
+          null
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "ExpenseLimit": {
+    "Category": "Transportation",
+    "Limit": 200
+  }
+}

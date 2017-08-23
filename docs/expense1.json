@@ -1,0 +1,12 @@
+{
+  "Expenses": {
+    "EmployeeID": 1,
+    "Date": "2012-06-27",
+    "Amount": 131.02,
+    "Purchase": {
+      "Category": "Lodging",
+      "Vendor": "Hyatt Hotels",
+      "Description": "Exec. King Room"
+    }
+  }
+}

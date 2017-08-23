@@ -1,0 +1,12 @@
+{
+  "Expenses": {
+    "EmployeeID": 3,
+    "Date": "2012-05-30",
+    "Amount": 120.00,
+    "Purchase": {
+      "Category": "Lodging",
+      "Vendor": "Kingsman Motel",
+      "Description": "Reg Room"
+    }
+  }
+}

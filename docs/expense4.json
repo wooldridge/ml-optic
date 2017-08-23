@@ -1,0 +1,12 @@
+{
+  "Expenses": {
+    "EmployeeID": 3,
+    "Date": "2012-05-07",
+    "Amount": 162.95,
+    "Purchase": {
+      "Category": "Lodging",
+      "Vendor": "Hilton Hotels",
+      "Description": "Exec. Suite"
+    }
+  }
+}

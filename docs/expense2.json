@@ -1,0 +1,12 @@
+{
+  "Expenses": {
+    "EmployeeID": 2,
+    "Date": "2012-06-27",
+    "Amount": 155.22,
+    "Purchase": {
+      "Category": "Transportation",
+      "Vendor": "Alaska",
+      "Description": "SFO > SEA"
+    }
+  }
+}

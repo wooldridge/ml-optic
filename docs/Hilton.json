@@ -1,0 +1,12 @@
+{
+  "ApprovedVendor": {
+    "Name": "Hilton Hotels",
+    "Address": {
+      "Street": "555 Market St.",
+      "City": "San Francisco",
+      "Region": "CA",
+      "PostalCode": "USA",
+      "Phone": "(415) 540-8732"
+    }
+  }
+}

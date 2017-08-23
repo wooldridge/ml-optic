@@ -1,0 +1,12 @@
+{
+  "ApprovedVendor": {
+    "Name": "Good Eats",
+    "Address": {
+      "Street": "707 Oxford Rd.",
+      "City": "Ann Arbor",
+      "Region": "MI",
+      "PostalCode": "USA",
+      "Phone": "(313) 555-5735"
+    }
+  }
+}

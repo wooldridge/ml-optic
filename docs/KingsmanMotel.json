@@ -1,0 +1,12 @@
+{
+  "ApprovedVendor": {
+    "Name": "Kingsman Motel",
+    "Address": {
+      "Street": "4832 Frankster St.",
+      "City": "Renor",
+      "Region": "NV",
+      "PostalCode": "USA",
+      "Phone": "(702) 436-3785"
+    }
+  }
+}

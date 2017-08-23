@@ -1,0 +1,6 @@
+{
+  "ExpenseLimit": {
+    "Category": "Lodging",
+    "Limit": 300
+  }
+}

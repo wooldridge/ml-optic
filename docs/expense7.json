@@ -1,0 +1,12 @@
+{
+  "Expenses": {
+    "EmployeeID": 4,
+    "Date": "2012-06-05",
+    "Amount": 104.29,
+    "Purchase": {
+      "Category": "Meals",
+      "Vendor": "Good Eats",
+      "Description": "Client Lunch"
+    }
+  }
+}

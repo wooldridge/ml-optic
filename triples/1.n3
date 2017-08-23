@@ -1,0 +1,29 @@
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geonames: <http://www.geonames.org/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://sws.geonames.org/88/> a geonames:Feature ;
+    geonames:alternateName "Nīm Mardī"@fa,
+        "نیم مردی"@fa ;
+    geonames:countryCode "IR" ;
+    geonames:featureClass geonames:P ;
+    geonames:featureCode geonames:P.PPL ;
+    geonames:locationMap <http://www.geonames.org/88/nim-mardi.html> ;
+    geonames:name "Nīm Mardī" ;
+    geonames:nearbyFeatures <http://sws.geonames.org/88/nearby.rdf> ;
+    geonames:parentADM1 <http://sws.geonames.org/127082/> ;
+    geonames:parentCountry <http://sws.geonames.org/130758/> ;
+    geonames:parentFeature <http://sws.geonames.org/127082/> ;
+    geonames:wikipediaArticle <http://en.wikipedia.org/wiki/Nim_Mardi> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/88/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Nim_Mardi> ;
+    geo:lat "32.84814" ;
+    geo:long "48.46144" .
+

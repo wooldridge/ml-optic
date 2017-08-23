@@ -1,0 +1,6 @@
+{
+  "ExpenseLimit": {
+    "Category": "Meals",
+    "Limit": 100
+  }
+}

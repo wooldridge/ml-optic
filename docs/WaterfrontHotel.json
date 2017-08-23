@@ -1,0 +1,12 @@
+{
+  "ApprovedVendor": {
+    "Name": "Waterfront Hotel",
+    "Address": {
+      "Street": "1000 Coast Rd.",
+      "City": "Santa Cruz",
+      "Region": "CA",
+      "PostalCode": "USA",
+      "Phone": "(831) 745-8913"
+    }
+  }
+}

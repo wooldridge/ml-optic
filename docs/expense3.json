@@ -1,0 +1,12 @@
+{
+  "Expenses": {
+    "EmployeeID": 1,
+    "Date": "2012-08-03",
+    "Amount": 59.95,
+    "Purchase": {
+      "Category": "Meals",
+      "Vendor": "Doug's Dinner",
+      "Description": "Dinner"
+    }
+  }
+}

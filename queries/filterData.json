@@ -1,0 +1,38 @@
+{
+  "$optic": {
+    "ns": "op",
+    "fn": "operators",
+    "args": [
+      {
+        "ns": "op",
+        "fn": "from-view",
+        "args": [
+          "main",
+          "employees",
+          null,
+          null
+        ]
+      },
+      {
+        "ns": "op",
+        "fn": "where",
+        "args": [
+          {
+            "ns": "op",
+            "fn": "eq",
+            "args": [
+              {
+                "ns": "op",
+                "fn": "col",
+                "args": [
+                  "LastName"
+                ]
+              },
+              "Goodall"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

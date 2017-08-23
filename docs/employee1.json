@@ -1,0 +1,8 @@
+{
+  "Employee": {
+    "ID": 1,
+    "FirstName": "John",
+    "LastName": "Widget",
+    "Position": "Manager of Human Resources"
+  }
+}

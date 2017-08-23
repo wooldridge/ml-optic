@@ -1,0 +1,12 @@
+{
+  "Expenses": {
+    "EmployeeID": 4,
+    "Date": "2012-03-23",
+    "Amount": 155.55,
+    "Purchase": {
+      "Category": "Lodging",
+      "Vendor": "Waterfront Hotel",
+      "Description": "Queen Room"
+    }
+  }
+}

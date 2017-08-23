@@ -1,0 +1,12 @@
+{
+  "ApprovedVendor": {
+    "Name": "Hyatt Hotels",
+    "Address": {
+      "Street": "9023 Caterberry Ave.",
+      "City": "Seattle",
+      "Region": "WA",
+      "PostalCode": "USA",
+      "Phone": "(206) 321-3152"
+    }
+  }
+}

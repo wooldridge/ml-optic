@@ -1,0 +1,79 @@
+{
+  "$optic": {
+    "ns": "op",
+    "fn": "operators",
+    "args": [
+      {
+        "ns": "op",
+        "fn": "from-view",
+        "args": [
+          "main",
+          "expenses",
+          null,
+          null
+        ]
+      },
+      {
+        "ns": "op",
+        "fn": "group-by",
+        "args": [
+          [
+            {
+              "ns": "op",
+              "fn": "col",
+              "args": [
+                "Vendor"
+              ]
+            }
+          ],
+          [
+            {
+              "ns": "op",
+              "fn": "sum",
+              "args": [
+                {
+                  "ns": "op",
+                  "fn": "col",
+                  "args": [
+                    "TotalAmount"
+                  ]
+                },
+                {
+                  "ns": "op",
+                  "fn": "col",
+                  "args": [
+                    "Amount"
+                  ]
+                },
+                null
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "ns": "op",
+        "fn": "select",
+        "args": [
+          [
+            {
+              "ns": "op",
+              "fn": "col",
+              "args": [
+                "Vendor"
+              ]
+            },
+            {
+              "ns": "op",
+              "fn": "col",
+              "args": [
+                "TotalAmount"
+              ]
+            }
+          ],
+          null
+        ]
+      }
+    ]
+  }
+}
