@@ -10,8 +10,6 @@ var db = marklogic.createDatabaseClient({
   port: config.server.restPort
 });
 
-  console.log(db);
-
 function getScript(script) {
   return fs.readFileSync(
     __dirname + '/scripts/' + script, { encoding: 'utf8' }
@@ -39,7 +37,7 @@ function createSchemaDatabase() {
   rp(options)
     .then(function (parsedBody) {
       console.log('Schema database created: ' + config.schemaDatabaseSetup["database-name"]);
-      createDatabase()
+      createDatabase();
     })
     .catch(function (err) {
       console.log(JSON.stringify(err, null, 2));
